@@ -1,6 +1,5 @@
 {:.no_toc}
 
-
 ## Overview
 <p align="justify">
 In recent years, large language models have achieved significant success in generative tasks (e.g., speech cloning and audio generation) related to speech, audio, music, and other signal domains. A crucial element of these models is the discrete acoustic codecs, which serves as an intermediate representation replacing the mel-spectrogram. However, there exist several gaps between discrete codecs and downstream speech language models. Specifically, 1) most codec models are trained on only 1,000 hours of data, whereas most speech language models are trained on 60,000 hours; 2) Achieving good reconstruction performance requires the utilization of numerous codebooks, which increases the burden on downstream speech language models; 3) The initial channel of the codebooks contains excessive information, making it challenging to directly generate acoustic tokens from weakly supervised signals such as text in downstream tasks. Consequently, leveraging the characteristics of speech language models, we propose Language-Codec. In the Language-Codec, we introduce a Mask Channel Residual Vector Quantization (MCRVQ) mechanism along with improved Fourier transform structures and larger training datasets to address the aforementioned gaps. We compare our method with competing audio compression algorithms and observe significant outperformance across extensive evaluations. Furthermore, we also validate the efficiency of the Language-Codec on downstream speech language models.
@@ -57,4 +56,108 @@ table {
     width: 100%;
 }
 </style>
+
 <p>&nbsp;</p> 
+<table>
+    <tr>
+        <th> GT</th>
+        <th> Opus(6.0kbps) </th>
+        <th> EVS(7.2kbps)</th>
+        <th> Lyra-v2(6.0kbps)</th>
+        <th> Encodec(6.0kbps)</th>
+        <th> SpeechTokenizer(6.0kbps)</th>
+        <th> LanguageCodec(6.0kbps)</th>
+    </tr>
+    <tr>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/1/1089_134691_000052_000000.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/1/opus_1089_134691_000052_000000.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/1/evs_1089_134691_000052_000000.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/1/lyra_1089_134691_000052_000000_decoded.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/1/encodec_1089_134691_000052_000000.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/1/st_1089_134691_000052_000000.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/1/languagecodec_1089_134691_000052_000000.wav" type="audio/mpeg"></audio> </th>
+    </tr> 
+    <tr>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/2/260_123288_000006_000002.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/2/opus_260_123288_000006_000002.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/2/evs_260_123288_000006_000002.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/2/lyra_260_123288_000006_000002_decoded.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/2/encodec_260_123288_000006_000002.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/2/st_260_123288_000006_000002.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/2/languagecodec_260_123288_000006_000002.wav" type="audio/mpeg"></audio> </th>
+    </tr> 
+    <tr>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/3/1320_122617_000069_000000.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/3/opus_1320_122617_000069_000000.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/3/evs_1320_122617_000069_000000.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/3/lyra_1320_122617_000069_000000_decoded.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/3/encodec_1320_122617_000069_000000.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/3/st_1320_122617_000069_000000.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/3/languagecodec_1320_122617_000069_000000.wav" type="audio/mpeg"></audio> </th>
+    </tr> 
+    <tr>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/4/1580_141083_000043_000001.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/4/opus_1580_141083_000043_000001.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/4/evs_1580_141083_000043_000001.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/4/lyra_1580_141083_000043_000001_decoded.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/4/encodec_1580_141083_000043_000001.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/4/st_1580_141083_000043_000001.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/4/languagecodec_1580_141083_000043_000001.wav" type="audio/mpeg"></audio> </th>
+    </tr> 
+    <tr>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/5/1995_1826_000051_000001.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/5/opus_1995_1826_000051_000001.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/5/evs_1995_1826_000051_000001.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/5/lyra_1995_1826_000051_000001_decoded.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/5/encodec_1995_1826_000051_000001.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/5/st_1995_1826_000051_000001.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/5/languagecodec_1995_1826_000051_000001.wav" type="audio/mpeg"></audio> </th>
+    </tr> 
+    <tr>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/6/2961_961_000004_000002.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/6/opus_2961_961_000004_000002.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/6/evs_2961_961_000004_000002.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/6/lyra_2961_961_000004_000002_decoded.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/6/encodec_2961_961_000004_000002.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/6/st_2961_961_000004_000002.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/6/languagecodec_2961_961_000004_000002.wav" type="audio/mpeg"></audio> </th>
+    </tr> 
+    <tr>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/7/3575_170457_000048_000000.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/7/opus_3575_170457_000048_000000.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/7/evs_3575_170457_000048_000000.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/7/lyra_3575_170457_000048_000000_decoded.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/7/encodec_3575_170457_000048_000000.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/7/st_3575_170457_000048_000000.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/7/languagecodec_3575_170457_000048_000000.wav" type="audio/mpeg"></audio> </th>
+    </tr> 
+    <tr>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/8/4446_2271_000007_000002.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/8/opus_4446_2271_000007_000002.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/8/evs_4446_2271_000007_000002.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/8/lyra_4446_2271_000007_000002_decoded.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/8/encodec_4446_2271_000007_000002.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/8/st_4446_2271_000007_000002.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/8/languagecodec_4446_2271_000007_000002.wav" type="audio/mpeg"></audio> </th>
+    </tr> 
+    <tr>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/9/4992_41806_000001_000000.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/9/opus_4992_41806_000001_000000.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/9/evs_4992_41806_000001_000000.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/9/lyra_4992_41806_000001_000000_decoded.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/9/encodec_4992_41806_000001_000000.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/9/st_4992_41806_000001_000000.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/9/languagecodec_4992_41806_000001_000000.wav" type="audio/mpeg"></audio> </th>
+    </tr> 
+    <tr>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/10/7729_102255_000002_000003.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/10/opus_7729_102255_000002_000003.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/10/evs_7729_102255_000002_000003.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/10/lyra_7729_102255_000002_000003_decoded.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/10/encodec_7729_102255_000002_000003.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/10/st_7729_102255_000002_000003.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/10/languagecodec_7729_102255_000002_000003.wav" type="audio/mpeg"></audio> </th>
+    </tr> 
+</table>
+
+<p>&nbsp;</p>
