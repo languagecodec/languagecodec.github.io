@@ -1,1 +1,1 @@
-# This is the demo of MobileSpeech.
+# This is the demo of LanguageCodec.
