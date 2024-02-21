@@ -58,7 +58,7 @@ table {
 </style>
 
 <p>&nbsp;</p> 
-1. He felt above him the vast indifferent dome and the calm processes of the heavenly bodies; and the earth beneath him, the earth that had borne him, had taken him to her breast.<br>
+1.He felt above him the vast indifferent dome and the calm processes of the heavenly bodies; and the earth beneath him, the earth that had borne him, had taken him to her breast.<br>
 <table>
     <tr>
         <th> GT</th>
@@ -81,7 +81,7 @@ table {
 </table>
 
 <p>&nbsp;</p> 
-2. Such is their ponderous weight that they cannot rise from the horizon; but, obeying an impulse from higher currents, their dense consistency slowly yields.<br>
+2.Such is their ponderous weight that they cannot rise from the horizon; but, obeying an impulse from higher currents, their dense consistency slowly yields.<br>
 <table>
     <tr>
         <th> GT</th>
@@ -104,7 +104,7 @@ table {
 </table>
 
 <p>&nbsp;</p> 
-3. Now let the devils strike our scent!" said the scout, tearing two rifles, with all their attendant accouterments, from beneath a bush, and flourishing "killdeer" as he handed Uncas his weapon; "two, at least, will find it to their deaths.<br>
+3.Now let the devils strike our scent!" said the scout, tearing two rifles, with all their attendant accouterments, from beneath a bush, and flourishing "killdeer" as he handed Uncas his weapon; "two, at least, will find it to their deaths.<br>
 <table>
     <tr>
         <th> GT</th>
@@ -127,7 +127,7 @@ table {
 </table>
 
 <p>&nbsp;</p> 
-4. Well, if there is nothing to be learned here, we had best go inside.<br>
+4.Well, if there is nothing to be learned here, we had best go inside.<br>
 <table>
     <tr>
         <th> GT</th>
@@ -150,7 +150,7 @@ table {
 </table>
 
 <p>&nbsp;</p> 
-5. He grasped his hoe and started briskly to work.<br>
+5.He grasped his hoe and started briskly to work.<br>
 <table>
     <tr>
         <th> GT</th>
@@ -173,7 +173,7 @@ table {
 </table>
 
 <p>&nbsp;</p> 
-6. Critias when he told this tale of the olden time, was ninety years old, I being not more than ten.<br>
+6.Critias when he told this tale of the olden time, was ninety years old, I being not more than ten.<br>
 <table>
     <tr>
         <th> GT</th>
@@ -196,7 +196,7 @@ table {
 </table>
 
 <p>&nbsp;</p> 
-7. Stung by anxiety for this little sister, she upbraided Miss W--- for her fancied indifference to Anne's state of health.<br>
+7.Stung by anxiety for this little sister, she upbraided Miss W--- for her fancied indifference to Anne's state of health.<br>
 <table>
     <tr>
         <th> GT</th>
@@ -219,7 +219,7 @@ table {
 </table>
 
 <p>&nbsp;</p> 
-8. It's delightful to hear it in a London theatre.<br>
+8.It's delightful to hear it in a London theatre.<br>
 <table>
     <tr>
         <th> GT</th>
@@ -242,7 +242,7 @@ table {
 </table>
 
 <p>&nbsp;</p> 
-9. The carey housewarming.<br>
+9.The carey housewarming.<br>
 <table>
     <tr>
         <th> GT</th>
@@ -265,7 +265,7 @@ table {
 </table>
 
 <p>&nbsp;</p> 
-10. This was at the March election, eighteen fifty five.<br>
+10.This was at the March election, eighteen fifty five.<br>
 <table>
     <tr>
         <th> GT</th>
