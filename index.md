@@ -58,6 +58,7 @@ table {
 </style>
 
 <p>&nbsp;</p> 
+1. He felt above him the vast indifferent dome and the calm processes of the heavenly bodies; and the earth beneath him, the earth that had borne him, had taken him to her breast.<br>
 <table>
     <tr>
         <th> GT</th>
@@ -77,6 +78,20 @@ table {
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/1/st_1089_134691_000052_000000.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/1/languagecodec_1089_134691_000052_000000.wav" type="audio/mpeg"></audio> </th>
     </tr> 
+</table>
+
+<p>&nbsp;</p> 
+2. Such is their ponderous weight that they cannot rise from the horizon; but, obeying an impulse from higher currents, their dense consistency slowly yields.<br>
+<table>
+    <tr>
+        <th> GT</th>
+        <th> Opus(6.0kbps) </th>
+        <th> EVS(7.2kbps)</th>
+        <th> Lyra-v2(6.0kbps)</th>
+        <th> Encodec(6.0kbps)</th>
+        <th> SpeechTokenizer(6.0kbps)</th>
+        <th> LanguageCodec(6.0kbps)</th>
+    </tr>
     <tr>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/2/260_123288_000006_000002.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/2/opus_260_123288_000006_000002.wav" type="audio/mpeg"></audio> </th>
@@ -86,6 +101,20 @@ table {
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/2/st_260_123288_000006_000002.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/2/languagecodec_260_123288_000006_000002.wav" type="audio/mpeg"></audio> </th>
     </tr> 
+</table>
+
+<p>&nbsp;</p> 
+3. Now let the devils strike our scent!" said the scout, tearing two rifles, with all their attendant accouterments, from beneath a bush, and flourishing "killdeer" as he handed Uncas his weapon; "two, at least, will find it to their deaths.<br>
+<table>
+    <tr>
+        <th> GT</th>
+        <th> Opus(6.0kbps) </th>
+        <th> EVS(7.2kbps)</th>
+        <th> Lyra-v2(6.0kbps)</th>
+        <th> Encodec(6.0kbps)</th>
+        <th> SpeechTokenizer(6.0kbps)</th>
+        <th> LanguageCodec(6.0kbps)</th>
+    </tr>
     <tr>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/3/1320_122617_000069_000000.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/3/opus_1320_122617_000069_000000.wav" type="audio/mpeg"></audio> </th>
@@ -95,6 +124,20 @@ table {
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/3/st_1320_122617_000069_000000.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/3/languagecodec_1320_122617_000069_000000.wav" type="audio/mpeg"></audio> </th>
     </tr> 
+</table>
+
+<p>&nbsp;</p> 
+4. Well, if there is nothing to be learned here, we had best go inside.<br>
+<table>
+    <tr>
+        <th> GT</th>
+        <th> Opus(6.0kbps) </th>
+        <th> EVS(7.2kbps)</th>
+        <th> Lyra-v2(6.0kbps)</th>
+        <th> Encodec(6.0kbps)</th>
+        <th> SpeechTokenizer(6.0kbps)</th>
+        <th> LanguageCodec(6.0kbps)</th>
+    </tr>
     <tr>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/4/1580_141083_000043_000001.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/4/opus_1580_141083_000043_000001.wav" type="audio/mpeg"></audio> </th>
@@ -104,6 +147,20 @@ table {
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/4/st_1580_141083_000043_000001.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/4/languagecodec_1580_141083_000043_000001.wav" type="audio/mpeg"></audio> </th>
     </tr> 
+</table>
+
+<p>&nbsp;</p> 
+5. He grasped his hoe and started briskly to work.<br>
+<table>
+    <tr>
+        <th> GT</th>
+        <th> Opus(6.0kbps) </th>
+        <th> EVS(7.2kbps)</th>
+        <th> Lyra-v2(6.0kbps)</th>
+        <th> Encodec(6.0kbps)</th>
+        <th> SpeechTokenizer(6.0kbps)</th>
+        <th> LanguageCodec(6.0kbps)</th>
+    </tr>
     <tr>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/5/1995_1826_000051_000001.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/5/opus_1995_1826_000051_000001.wav" type="audio/mpeg"></audio> </th>
@@ -113,6 +170,20 @@ table {
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/5/st_1995_1826_000051_000001.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/5/languagecodec_1995_1826_000051_000001.wav" type="audio/mpeg"></audio> </th>
     </tr> 
+</table>
+
+<p>&nbsp;</p> 
+6. Critias when he told this tale of the olden time, was ninety years old, I being not more than ten.<br>
+<table>
+    <tr>
+        <th> GT</th>
+        <th> Opus(6.0kbps) </th>
+        <th> EVS(7.2kbps)</th>
+        <th> Lyra-v2(6.0kbps)</th>
+        <th> Encodec(6.0kbps)</th>
+        <th> SpeechTokenizer(6.0kbps)</th>
+        <th> LanguageCodec(6.0kbps)</th>
+    </tr>
     <tr>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/6/2961_961_000004_000002.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/6/opus_2961_961_000004_000002.wav" type="audio/mpeg"></audio> </th>
@@ -121,7 +192,21 @@ table {
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/6/encodec_2961_961_000004_000002.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/6/st_2961_961_000004_000002.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/6/languagecodec_2961_961_000004_000002.wav" type="audio/mpeg"></audio> </th>
-    </tr> 
+    </tr>
+</table>
+
+<p>&nbsp;</p> 
+7. Stung by anxiety for this little sister, she upbraided Miss W--- for her fancied indifference to Anne's state of health.<br>
+<table>
+    <tr>
+        <th> GT</th>
+        <th> Opus(6.0kbps) </th>
+        <th> EVS(7.2kbps)</th>
+        <th> Lyra-v2(6.0kbps)</th>
+        <th> Encodec(6.0kbps)</th>
+        <th> SpeechTokenizer(6.0kbps)</th>
+        <th> LanguageCodec(6.0kbps)</th>
+    </tr>
     <tr>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/7/3575_170457_000048_000000.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/7/opus_3575_170457_000048_000000.wav" type="audio/mpeg"></audio> </th>
@@ -131,6 +216,20 @@ table {
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/7/st_3575_170457_000048_000000.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/7/languagecodec_3575_170457_000048_000000.wav" type="audio/mpeg"></audio> </th>
     </tr> 
+</table>
+
+<p>&nbsp;</p> 
+8. It's delightful to hear it in a London theatre.<br>
+<table>
+    <tr>
+        <th> GT</th>
+        <th> Opus(6.0kbps) </th>
+        <th> EVS(7.2kbps)</th>
+        <th> Lyra-v2(6.0kbps)</th>
+        <th> Encodec(6.0kbps)</th>
+        <th> SpeechTokenizer(6.0kbps)</th>
+        <th> LanguageCodec(6.0kbps)</th>
+    </tr>
     <tr>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/8/4446_2271_000007_000002.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/8/opus_4446_2271_000007_000002.wav" type="audio/mpeg"></audio> </th>
@@ -140,6 +239,20 @@ table {
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/8/st_4446_2271_000007_000002.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/8/languagecodec_4446_2271_000007_000002.wav" type="audio/mpeg"></audio> </th>
     </tr> 
+</table>
+
+<p>&nbsp;</p> 
+9. The carey housewarming.<br>
+<table>
+    <tr>
+        <th> GT</th>
+        <th> Opus(6.0kbps) </th>
+        <th> EVS(7.2kbps)</th>
+        <th> Lyra-v2(6.0kbps)</th>
+        <th> Encodec(6.0kbps)</th>
+        <th> SpeechTokenizer(6.0kbps)</th>
+        <th> LanguageCodec(6.0kbps)</th>
+    </tr> 
     <tr>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/9/4992_41806_000001_000000.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/9/opus_4992_41806_000001_000000.wav" type="audio/mpeg"></audio> </th>
@@ -148,6 +261,20 @@ table {
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/9/encodec_4992_41806_000001_000000.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/9/st_4992_41806_000001_000000.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/9/languagecodec_4992_41806_000001_000000.wav" type="audio/mpeg"></audio> </th>
+    </tr> 
+</table>
+
+<p>&nbsp;</p> 
+10. This was at the March election, eighteen fifty five.<br>
+<table>
+    <tr>
+        <th> GT</th>
+        <th> Opus(6.0kbps) </th>
+        <th> EVS(7.2kbps)</th>
+        <th> Lyra-v2(6.0kbps)</th>
+        <th> Encodec(6.0kbps)</th>
+        <th> SpeechTokenizer(6.0kbps)</th>
+        <th> LanguageCodec(6.0kbps)</th>
     </tr> 
     <tr>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/10/7729_102255_000002_000003.wav" type="audio/mpeg"></audio> </th>
