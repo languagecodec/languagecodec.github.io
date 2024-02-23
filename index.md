@@ -344,7 +344,7 @@ table {
 </table>   
             
 <p>&nbsp;</p> 
-5."he's better now.<br>
+5.he's better now.<br>
 <table>
     <tr>
         <th> GT</th>
@@ -409,7 +409,7 @@ table {
 </table>   
             
 <p>&nbsp;</p> 
-10."all my men put their hands to their mouths and shouted.<br>
+10.all my men put their hands to their mouths and shouted.<br>
 <table>
     <tr>
         <th> GT</th>
@@ -422,7 +422,7 @@ table {
 </table>   
             
 <p>&nbsp;</p> 
-11."yes; she'll worry about me, i know.<br>
+11.yes; she'll worry about me, i know.<br>
 <table>
     <tr>
         <th> GT</th>
@@ -435,7 +435,7 @@ table {
 </table>   
             
 <p>&nbsp;</p> 
-12.'and where is he staying?'<br>
+12.and where is he staying?<br>
 <table>
     <tr>
         <th> GT</th>
@@ -448,7 +448,7 @@ table {
 </table>   
             
 <p>&nbsp;</p> 
-13."his trial has not yet taken place, and instead of your devoting considerable of your valuable time appearing against him it would be much simpler to settle the matter right here and now."<br>
+13.his trial has not yet taken place, and instead of your devoting considerable of your valuable time appearing against him it would be much simpler to settle the matter right here and now.<br>
 <table>
     <tr>
         <th> GT</th>
@@ -461,7 +461,7 @@ table {
 </table>   
             
 <p>&nbsp;</p> 
-14.'that?<br>
+14.that?<br>
 <table>
     <tr>
         <th> GT</th>
@@ -513,7 +513,7 @@ table {
 </table>   
             
 <p>&nbsp;</p> 
-18."excuse me, please.<br>
+18.excuse me, please.<br>
 <table>
     <tr>
         <th> GT</th>
@@ -526,7 +526,7 @@ table {
 </table>   
             
 <p>&nbsp;</p> 
-19.I've heard of your coming here, and sending, so often.'<br>
+19.I've heard of your coming here, and sending, so often.<br>
 <table>
     <tr>
         <th> GT</th>
@@ -539,7 +539,7 @@ table {
 </table>   
             
 <p>&nbsp;</p> 
-20."yes, sir, i plead guilty, although i've been told i ought not to confess.<br>
+20.yes, sir, i plead guilty, although i've been told i ought not to confess.<br>
 <table>
     <tr>
         <th> GT</th>
