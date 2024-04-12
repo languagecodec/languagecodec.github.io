@@ -30,7 +30,7 @@ We evaluated the performance of the codec model on the test set of LibriTTS. The
 
 <table>
     <tr>
-        <td ><center><img src="assets/image/result.png"/> </center></td>
+        <td ><center><img src="assets/image/result_mm.png"/> </center></td>
     </tr>
 </table>
 
