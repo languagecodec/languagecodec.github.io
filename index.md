@@ -13,7 +13,7 @@ The overall architecture for Language-Codec. On the far left is the encoder down
 
 <table>
     <tr>
-        <td ><center><img src="assets/image/arch.png"/> </center></td>
+        <td ><center><img src="assets/image/lan_aaai_arc.png"/> </center></td>
     </tr>
 </table>
 
@@ -27,7 +27,7 @@ We evaluated the performance of the codec model on the test set of LibriTTS. The
 
 <table>
     <tr>
-        <td ><center><img src="assets/image/result_mm.png"/> </center></td>
+        <td ><center><img src="assets/image/lang_aaai_result.png"/> </center></td>
     </tr>
 </table>
 
